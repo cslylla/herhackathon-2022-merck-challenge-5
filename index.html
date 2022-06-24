@@ -4,44 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Internal links-->
-    <link rel="stylesheet" href="src/index.css">
-    <script src="src/index.js" defer></script>
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!--Google fonts-->
-
-    <!--For python-->
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <!--Internal links-->
+    <link rel="stylesheet" href="src/index.css">
+    <script src="src/index.js" defer></script>
     <title>Login | Tree of Life</title>
 </head>
 <body>
+<div class="container">
+    <div class="panel">
+        <div class="welcome-img">
+            <h1>Tree of Life</h1>
+            <img src="/src/images/login-img.png" alt="Drawing of a doctor with patient">
+        </div>
 
-<h1>Login to the Tree of Life</h1>
+        <div class="login">
+            <h3>Welcome back!</h3>
+            <form action="./welcome.html">
+                <input type="text" placeholder="Username" name="uname" required>
 
-<form action="./welcome.html">
-    <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+                <input type="password" placeholder="Password" name="psw" required>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-
-        <button type="submit">Login</button>
-        <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
+                <button type="submit">Sign In</button>
+                <div class="psw"><a href="forgot-pw.html">Forgot password?</a></div>
+            </form>
+        </div>
+        
     </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-</form>
-
-<!--For bootstrap-->
+<footer>
+    This web page was made by 
+    <a href="https://github.com/Bishu11" target=”_blank”>Bishu11</a>
+    <a href="https://github.com/bonnynich" target=”_blank”>bonnynich</a>
+    <a href="https://github.com/cslylla" target=”_blank”>cslylla</a>
+    <a href="https://github.com/Divya1205" target=”_blank”>Divya1205</a>
+    <a href="https://github.com/Hallelujah7" target=”_blank”>Hallelujah7</a> and
+    <a href="#" target=”_blank”>Snezhana</a>
+</footer>
+</div>
+<!--Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>

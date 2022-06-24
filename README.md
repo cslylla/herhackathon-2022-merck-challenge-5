@@ -27,5 +27,7 @@ This web app is accessible with any modern web browser (on desktop and on mobile
 
 - Visit the weather app [here](https://clever-croquembouche-61c5a6.netlify.app/)
 - Further info about [HerHackathon](https://thehackathoncompany.com/herhackathon/)
-- The used [Merck Challenge for HerHackathon 2022](https://thehackathoncompany.com/wp-content/uploads/2022/04/HE23E51.pdf)
-- The used [PyScript](https://pyscript.net/)
+- More info about the [Merck Challenge for HerHackathon 2022](https://thehackathoncompany.com/wp-content/uploads/2022/04/HE23E51.pdf)
+- More info about the [PyScript](https://pyscript.net/)
+- All graphical elements are from [Freepik](https://www.freepik.com/vectors/physical-examination)
+

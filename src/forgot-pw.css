@@ -1,11 +1,12 @@
-:root{
+:root {
     --text-color: #707070;
     --primary-color: #4B368C;
     --secondary-color: #C0B5D9;
     --light-color: #F7F6FB;
 }
 
-html, body {
+html,
+body {
     font-family: 'Quicksand', sans-serif;
     color: var(--text-color);
     /* For browsers that do not support gradients */
@@ -37,7 +38,7 @@ html, body {
     margin: 0;
 }
 
-.welcome-img{
+.welcome-img {
     width: 50%;
     height: auto;
     text-align: center;
@@ -56,14 +57,14 @@ img {
     margin: 10px;
 }
 
-.login{
+.login {
     width: 50%;
     height: auto;
     text-align: center;
     z-index: 11;
 }
 
-.panel::after{
+.panel::after {
     content: " ";
     z-index: 10;
     display: block;
@@ -76,22 +77,9 @@ img {
     border-radius: 0px 30px 30px 0px;
 }
 
-h3{
+h3 {
     margin-top: 6rem;
     margin-bottom: 2rem;
-}
-
-/* Full-width inputs */
-input[type=text],
-input[type=password] {
-    width: 70%;
-    padding: 0.8rem 0.5rem;
-    margin: 1rem 0;
-    display: inline-block;
-    border-radius: 5px;
-    border: none;
-    background-color: var(--secondary-color);
-    box-sizing: border-box;
 }
 
 /* Set a style for all buttons */
@@ -104,6 +92,16 @@ button {
     cursor: pointer;
     width: 50%;
     border-radius: 20px;
+}
+
+button a {
+    color: var(--light-color);
+    font-size: 1rem;
+}
+
+button a:hover {
+    color: var(--light-color);
+    font-weight: 400;
 }
 
 a {
