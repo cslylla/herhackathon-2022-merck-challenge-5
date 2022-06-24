@@ -4,7 +4,7 @@
 
 ## 1. Key features
 
-- The **single-site** web app is built with **Vanilla JavaScript** and **PyScript**, HTML and CSS
+- The **multi-page** web app is built with **Vanilla JavaScript** and **PyScript**, HTML and CSS
 - The layout of the page uses **bootstrap**
 - The UI design was created with **accessibility** in mind
 - The website is **responsible** and can be viewed in a web browser or on a mobile device
