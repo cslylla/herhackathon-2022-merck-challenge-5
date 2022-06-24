@@ -30,4 +30,4 @@ This web app is accessible with any modern web browser (on desktop and on mobile
 - More info about the [Merck Challenge for HerHackathon 2022](https://thehackathoncompany.com/wp-content/uploads/2022/04/HE23E51.pdf)
 - More info about the [PyScript](https://pyscript.net/)
 - All graphical elements are from [Freepik](https://www.freepik.com/vectors/physical-examination)
-
+- The app is hosted on [Netlify](https://www.netlify.com/)
