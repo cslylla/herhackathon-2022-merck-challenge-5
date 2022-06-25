@@ -56,6 +56,30 @@ body {
     height: 40px;
 }
 
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+.card {
+    width: 45%;
+    min-height: 440px;
+    background-color: var(--light-color);
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.avatar {
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 3rem;
+}
+
 h1 {
     color: var(--primary-color);
     font-size: 3rem;
@@ -92,8 +116,6 @@ button:hover {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     padding: 2rem;
     font-size: 0.8rem;
