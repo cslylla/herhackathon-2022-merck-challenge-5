@@ -25,7 +25,7 @@ This web app is accessible with any modern web browser (on desktop and on mobile
 - After login, the dashboard is presented, with the Tree of Life - where the leafs indicating the number of successful matches done. Below there are 2 dashboards. On the right side, the patient dashboard is shown. On the left side the Clinical Trial dashboard is shown. Both of them can be changed to show different data with the buttons above the charts.
 - Matching can be done on the Match page, where left the patient list is shown and right the clinical trial list. After a patient has been paired up with a clinical trial, the matching can be completed with the Match button.
 - After a match has been made, the Tree of Life is presented again.
-- On the Patient List page a list of the available patients is shown.
+- On the Patient List page a list of the available patients is shown, and new patients can be invited here.
 - On the Clinical Trial page a list of the current clinical trials, with Diversity Index is shown.
     > ⚠️ This page contains calculations in Python. Please wait a few seconds until it loads!
 - Profile page
