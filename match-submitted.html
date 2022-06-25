@@ -17,7 +17,7 @@
     <!--Internal links-->
     <link rel="stylesheet" href="/src/match.css">
     <script src="src/match.js" defer></script>
-    <title>Match | Tree of Life</title>
+    <title>Match Submitted | Tree of Life</title>
 </head>
 
 <body>
@@ -53,50 +53,14 @@
             </div>
         </nav>
 
-    <main>
-        <h1>Match</h1>
-        <div class="intro">Here you can match up the available patients with the current Clinical Trials. On the <strong>left side</strong> you can select a patient to see more details. On the <strong>right side</strong> you can select a Clinical Trial for more details.</div>
-        <form action="match-submitted.html">
-        <div class="box">
-            <div class="card-big">
-                <h3>Select Patient</h3>
-                <label for="patient">Patient:</label>
-                <select id="patient" name="patient" required>
-                    <option value="">Select a Patient</option>
-                    <option value='patient1'>Patient 1</option>
-                    <option value='patient2'>Patient 2</option>
-                    <option value='patient3'>Patient 3</option>
-                    <option value='patient4'>Patient 4</option>
-                </select>
-            <img class="patient" id="p1" src="/src/images/patient1.png" alt="">
-            <img class="patient" id="p2" src="/src/images/patient2.png" alt="">
-            <img class="patient" id="p3" src="/src/images/patient3.png" alt="">
-            <img class="patient" id="p4" src="/src/images/patient4.png" alt="">
+        <main>
+            <h1>Congratulation!</h1>
+            <div class="intro text-center"><strong>You matched a patient with a Clinical Trial!</strong> You will get a new leaf on your Life of Tree once the patient enters into the Clinical Trial.</div>
+            <img src="/src/images/tree.png" alt="Your Tree of Life" class="tree">
+            <div class="match-text mt-5">
+                <p>Keep continue to match up!</p>
+                <a href="match.html"><button>Match!</button></a>
             </div>
-            <div class="card-small">
-                <img class="arrow" src="/src/images/arrow.png" alt="arrow symbol">
-            </div>
-            <div class="card-big">
-                <h3>Select Trial</h3>
-                <label for="trial">Patient:</label>
-                <select id="trial" name="trial" required>
-                    <option value="">Select a Patient</option>
-                    <option value='trial1'>Trial 1</option>
-                    <option value='trial2'>Trial 2</option>
-                    <option value='trial3'>Trial 3</option>
-                    <option value='trial4'>Trial 4</option>
-                </select>
-                <img class="trial" id="t1" src="/src/images/trial1.png" alt="">
-                <img class="trial" id="t2" src="/src/images/trial2.png" alt="">
-                <img class="trial" id="t3" src="/src/images/trial3.png" alt="">
-                <img class="trial" id="t4" src="/src/images/trial4.png" alt="">
-            </div>
-        </div>
-        <div class="match-text">
-            <p>When you find a good match click on the button below to notify the patient about this Clinical Trial!</p>
-            <button type="submit">Match!</button>
-        </div>
-        </form>
         </main>
 
         <footer>
