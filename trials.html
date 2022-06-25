@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <!--For python-->
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
     <!--Internal links-->
     <link rel="stylesheet" href="/src/trials.css">
     <script src="src/welcome.js" defer></script>
@@ -52,20 +55,99 @@
                 </ul>
             </div>
         </nav>
-
         <h1>Clinical Trials</h1>
-
-
-
-
-
+        <div class="intro">Here you can see all the current Clinical Trials.</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Trial</th>
+                    <th>Phase</th>
+                    <th>Diversity Index</th>
+                    <th>Completion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img class="patient-avatar" src="/src/images/trial1-avatar.png" alt=""></td>
+                    <td>I</td>
+                    <td>
+                        <py-script>
+                            #Calculating the Diversity Index
+                            def compute(species):
+                                numSum = 0
+                                totalPopulation = 0
+                                for sp in species:
+                                    numSum += (sp*(sp-1))
+                                totalPopulation += sp
+                                return 1-numSum/(totalPopulation*(totalPopulation-1))
+                            print(round(compute([30,70]), 2))
+                        
+                            def eliminationRate(tHalf):
+                                return 0.693/tHalf
+                        </py-script>
+                    </td>
+                    <td>60%</td>
+                </tr>
+                <tr>
+                    <td><img class="patient-avatar" src="/src/images/trial2-avatar.png" alt=""></td>
+                    <td>III</td>
+                    <td>
+                        <py-script>
+                            #Calculating the Diversity Index
+                            def compute(species):
+                                numSum = 0
+                                totalPopulation = 0
+                                for sp in species:
+                                    numSum += (sp*(sp-1))
+                                totalPopulation += sp
+                                return 1-numSum/(totalPopulation*(totalPopulation-1))
+                            print(round(compute([40,60]), 2))
+                        </py-script>
+                    </td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td><img class="patient-avatar" src="/src/images/trial3-avatar.png" alt=""></td>
+                    <td>II</td>
+                    <td>
+                        <py-script>
+                            #Calculating the Diversity Index
+                            def compute(species):
+                                numSum = 0
+                                totalPopulation = 0
+                                for sp in species:
+                                    numSum += (sp*(sp-1))
+                                totalPopulation += sp
+                                return 1-numSum/(totalPopulation*(totalPopulation-1))
+                            print(round(compute([50,50]), 2))
+                        </py-script>
+                    </td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td><img class="patient-avatar" src="/src/images/trial4-avatar.png" alt=""></td>
+                    <td>I</td>
+                    <td>
+                        <py-script>
+                            #Calculating the Diversity Index
+                            def compute(species):
+                                numSum = 0
+                                totalPopulation = 0
+                                for sp in species:
+                                    numSum += (sp*(sp-1))
+                                totalPopulation += sp
+                                return 1-numSum/(totalPopulation*(totalPopulation-1))
+                            print(round(compute([90,10]), 2))
+                        </py-script>
+                    </td>
+                    <td>80%</td>
+                </tr>
+            </tbody>
+        </table>
         <div class="match-text">
             <p>When you are ready make a match below!</p>
-            <a href="#"><button>Match!</button></a>
+            <a href="match.html"><button>Match!</button></a>
         </div>
-
-
-
         <footer>
             This web page was made by
             <a href="https://github.com/Bishu11" target=”_blank”>Bishu11</a>,
