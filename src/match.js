@@ -1,4 +1,4 @@
-function displayPicture(event) {
+function displayPatient(event) {
     let val = document.getElementById('patient').value
     switch (val) {
     case 'patient1':
@@ -32,7 +32,42 @@ function displayPicture(event) {
         document.querySelector("#p4").style.display='none';
 }};
 
-document.querySelector("#patient").addEventListener('change', displayPicture);
+function displayTrial(event) {
+    let val = document.getElementById('trial').value
+    switch (val) {
+    case 'trial1':
+        document.querySelector("#t1").style.display='block';
+        document.querySelector("#t2").style.display='none';
+        document.querySelector("#t3").style.display='none';
+        document.querySelector("#t4").style.display='none'; 
+        break;
+    case 'trial2':
+        document.querySelector("#t1").style.display='none';
+        document.querySelector("#t2").style.display='block';
+        document.querySelector("#t3").style.display='none';
+        document.querySelector("#t4").style.display='none';
+        break;
+    case 'trial3':
+        document.querySelector("#t1").style.display='none';
+        document.querySelector("#t2").style.display='none';
+        document.querySelector("#t3").style.display='block';
+        document.querySelector("#t4").style.display='none';
+        break;
+    case 'trial4':
+        document.querySelector("#t1").style.display='none';
+        document.querySelector("#t2").style.display='none';
+        document.querySelector("#t3").style.display='none';
+        document.querySelector("#t4").style.display='block';
+        break;
+    default: 
+        document.querySelector("#t1").style.display='none';
+        document.querySelector("#t2").style.display='none';
+        document.querySelector("#t3").style.display='none';
+        document.querySelector("#t4").style.display='none';
+}};
+
+document.querySelector("#patient").addEventListener('change', displayPatient);
+document.querySelector("#trial").addEventListener('change', displayTrial);
 
 
 

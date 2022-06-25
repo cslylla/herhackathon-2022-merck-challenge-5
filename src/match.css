@@ -99,7 +99,7 @@ h3 {
     width: 100%;
 }
 
-.patient {
+.patient, .trial {
     width: 70%;
     height: auto;
     border-radius: 30px;
@@ -107,8 +107,6 @@ h3 {
     display: none;
     margin: 3rem auto;
 }
-
-
 
 button {
     background-color: var(--primary-color);
