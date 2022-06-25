@@ -56,6 +56,11 @@ body {
     height: 40px;
 }
 
+form button {
+    padding: 0.8;
+    margin-bottom: 2rem;
+}
+
 button {
     background-color: var(--primary-color);
     color: var(--light-color);
@@ -122,14 +127,6 @@ button {
     margin: 1rem;
     margin-bottom: 5rem;
 }
-
-.back button {
-    padding: 0.5rem;
-    font-size: 1rem;
-    margin: 1rem;
-    margin-bottom: 5rem;
-}
-
 
 /* Add a hover effect for buttons */
 button:hover {
