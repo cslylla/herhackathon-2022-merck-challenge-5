@@ -1,4 +1,4 @@
-:root{
+:root {
     --text-color: #707070;
     --primary-color: #4B368C;
     --secondary-color: #C0B5D9;
@@ -23,8 +23,7 @@ html, body {
 .container {
     margin: 0;
     padding: 0;
-    width: 70%;
-    
+    width: 70%;   
 }
 
 .panel {
