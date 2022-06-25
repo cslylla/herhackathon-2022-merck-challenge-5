@@ -11,7 +11,10 @@
 - Welcome page after login, displaying the Tree of Life, which will grow as the doctors successfully connect patients with trials.
 - Match page, where patients can be matched with clinical trials
 - Patient Dashboard
-- Clinical Trial Dashboard with **PyScript** calculations for the Diversity Index
+- Clinical Trial Dashboard with **PyScript** calculations for the Diversity Index. The Diversity index will be highlighted with different colors to indicate if the value is good or bad: 
+    - green if the value is bigger than 0.6 (good diversity index)
+  - yellow if the value is between 0.4 and 0.6 (good diversity index)
+  - pink if the value is less than 0.4 (good diversity index)
 - Profile information
 
 ## 2. Requirements
@@ -36,5 +39,5 @@ This web app is accessible with any modern web browser (on desktop and on mobile
 - Further info about [HerHackathon](https://thehackathoncompany.com/herhackathon/)
 - More info about the [Merck Challenge for HerHackathon 2022](https://thehackathoncompany.com/wp-content/uploads/2022/04/HE23E51.pdf)
 - More info about the [PyScript](https://pyscript.net/)
-- All graphical elements are from [Freepik](https://www.freepik.com/vectors/physical-examination)
+- All graphical elements are from [Freepik](https://www.freepik.com/vectors/physical-examination) and [Freepik](https://www.freepik.com/vectors/roots)
 - The app is hosted on [Netlify](https://www.netlify.com/)

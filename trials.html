@@ -70,7 +70,7 @@
                 <tr>
                     <td><img class="patient-avatar" src="/src/images/trial1-avatar.png" alt=""></td>
                     <td>I</td>
-                    <td>
+                    <td class="medium">
                         <py-script>
                             #Calculating the Diversity Index
                             def compute(species):
@@ -78,12 +78,9 @@
                                 totalPopulation = 0
                                 for sp in species:
                                     numSum += (sp*(sp-1))
-                                totalPopulation += sp
+                                    totalPopulation += sp
                                 return 1-numSum/(totalPopulation*(totalPopulation-1))
                             print(round(compute([30,70]), 2))
-                        
-                            def eliminationRate(tHalf):
-                                return 0.693/tHalf
                         </py-script>
                     </td>
                     <td>60%</td>
@@ -91,7 +88,7 @@
                 <tr>
                     <td><img class="patient-avatar" src="/src/images/trial2-avatar.png" alt=""></td>
                     <td>III</td>
-                    <td>
+                    <td class="medium">
                         <py-script>
                             #Calculating the Diversity Index
                             def compute(species):
@@ -99,7 +96,7 @@
                                 totalPopulation = 0
                                 for sp in species:
                                     numSum += (sp*(sp-1))
-                                totalPopulation += sp
+                                    totalPopulation += sp
                                 return 1-numSum/(totalPopulation*(totalPopulation-1))
                             print(round(compute([40,60]), 2))
                         </py-script>
@@ -109,7 +106,7 @@
                 <tr>
                     <td><img class="patient-avatar" src="/src/images/trial3-avatar.png" alt=""></td>
                     <td>II</td>
-                    <td>
+                    <td class="high">
                         <py-script>
                             #Calculating the Diversity Index
                             def compute(species):
@@ -117,9 +114,9 @@
                                 totalPopulation = 0
                                 for sp in species:
                                     numSum += (sp*(sp-1))
-                                totalPopulation += sp
+                                    totalPopulation += sp
                                 return 1-numSum/(totalPopulation*(totalPopulation-1))
-                            print(round(compute([50,50]), 2))
+                            print(round(compute([300,335, 365]), 2))
                         </py-script>
                     </td>
                     <td>40%</td>
@@ -127,7 +124,7 @@
                 <tr>
                     <td><img class="patient-avatar" src="/src/images/trial4-avatar.png" alt=""></td>
                     <td>I</td>
-                    <td>
+                    <td class="low">
                         <py-script>
                             #Calculating the Diversity Index
                             def compute(species):
@@ -135,9 +132,9 @@
                                 totalPopulation = 0
                                 for sp in species:
                                     numSum += (sp*(sp-1))
-                                totalPopulation += sp
+                                    totalPopulation += sp
                                 return 1-numSum/(totalPopulation*(totalPopulation-1))
-                            print(round(compute([90,10]), 2))
+                            print(round(compute([100,5]), 2))
                         </py-script>
                     </td>
                     <td>80%</td>

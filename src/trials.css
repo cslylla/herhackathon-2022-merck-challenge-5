@@ -123,6 +123,21 @@ button:hover {
     opacity: 0.8;
 }
 
+.low {
+    font-weight: bold;
+    color: #EB3D9A;
+}
+
+.medium {
+    font-weight: bold;
+    color: #FFC832;
+}
+
+.high {
+    font-weight: bold;
+    color: #159B61;
+}
+
 footer {
     width: 100%;
     padding: 2rem;
