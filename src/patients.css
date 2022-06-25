@@ -74,6 +74,38 @@ h1 {
     font-weight: 700;
 }
 
+table {
+    margin: 3rem auto;
+    text-align: left;
+    border-collapse: collapse;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead tr {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    text-align: left;
+}
+
+th,
+td {
+    padding: 12px 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: var(--secondary-color);
+}
+
+.patient-avatar {
+    max-height: 30px;
+    width: auto;
+}
+
 
 a {
     color: var(--primary-color);
@@ -92,8 +124,6 @@ button:hover {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     padding: 2rem;
     font-size: 0.8rem;
