@@ -56,6 +56,60 @@ body {
     height: 40px;
 }
 
+h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    margin: 2rem auto;
+}
+
+h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+
+}
+
+.card-small {
+    width: 10%;
+    min-height: 400px;
+    margin:0;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-big {
+    width: 45%;
+    background-color: var(--secondary-color);
+    min-height: 440px;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+.arrow {
+    width: 100%;
+}
+
+.patient {
+    width: 70%;
+    height: auto;
+    border-radius: 30px;
+    margin: 1rem;
+    display: none;
+    margin: 3rem auto;
+}
+
+
+
 button {
     background-color: var(--primary-color);
     color: var(--light-color);
@@ -86,8 +140,6 @@ button:hover {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     padding: 2rem;
     font-size: 0.8rem;

@@ -56,6 +56,12 @@ body {
     height: 40px;
 }
 
+h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 button {
     background-color: var(--primary-color);
     color: var(--light-color);
