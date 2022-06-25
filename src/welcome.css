@@ -58,19 +58,74 @@ html, body {
 .tree {
     max-height: 500px;
     width: auto;
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 6rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.intro {
+    margin: 4rem 15rem;
+    text-align: left;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    margin: 2rem auto;
+    margin-bottom: 5rem;
+}
+
+.card {
+    width: 50%;
+    background-color: var(--secondary-color);
+    min-height: 500px;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+.card h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+
+}
+
+.button-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    width: 30%;
+    justify-content: space-around;
 }
 
 
+
 /* Set a style for all buttons */
-button {
+.card button {
     background-color: var(--primary-color);
     color: var(--light-color);
-    padding: 0.8rem 0.5rem;
-    margin: 1rem 0;
+    padding: 0.5rem 0.2rem;
     border: none;
     cursor: pointer;
-    width: 50%;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.chart {
     border-radius: 20px;
+    margin-top: 2rem;
+    display: none;
 }
 
 a {

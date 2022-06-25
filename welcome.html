@@ -51,6 +51,49 @@
 
     <h1>Your Tree of Life</h1>
 
+    <div class="intro">
+        <p>This is your <strong>Tree of Life</strong>! The more matches you make, the more it will grow. Your matches help to make create a diverse patient pool and contributes to better datasets of Clinical Trials. Make matches to keep your tree growing!</p>
+        <p>Below on the <strong>left</strong>, you can see an overview of the actual talent pool. You can check the diversity of the people by applying different filters (age, gender, ethnicity).</p>
+        <p>Below on the <strong>right</strong>, you can see the current clinical trials. Click each of them for more details.</p>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <h3>Patient List</h3>
+            <div class="button-row">
+                <div class="button-container">
+                    <button id="age-button">Age</button>
+                </div>
+                <div class="button-container">
+                    <button id="gender-button">Gender</button>
+                </div>
+                <div class="button-container">
+                    <button id="ethnicity-button">Ethnicity</button>
+                </div>
+            </div>
+            <img class="chart" id="age" src="/src/images/age.png" alt="Pie chart of age distribution" style="display:block;">
+            <img class="chart" id="gender" src="/src/images/gender.png" alt="Pie chart of gender distribution">
+            <img class="chart" id="ethnicity" src="/src/images/ethnicity.png" alt="Pie chart of ethnicity distribution">
+        </div>
+        <div class="card">
+            <h3>Clinical Trials</h3>
+            <div class="button-row">
+                <div class="button-container">
+                    <button id="phase-button">Phase</button>
+                </div>
+                <div class="button-container">
+                    <button id="divind-button">DI</button>
+                </div>
+                <div class="button-container">
+                    <button id="completion-button">Complete</button>
+                </div>
+            </div>
+            <img class="chart" id="phase" src="/src/images/phase.png" alt="Pie chart of phase distribution" style="display:block;">
+            <img class="chart" id="divind" src="/src/images/divind.png" alt="Pie chart of diversity index distribution">
+            <img class="chart" id="completion" src="/src/images/completion.png" alt="Pie chart of completion distribution">
+        </div>
+    </div>
+
 
 
     <footer>
