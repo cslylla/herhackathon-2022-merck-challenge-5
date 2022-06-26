@@ -28,7 +28,7 @@ body {
 .merck-logo {
     width: 120px;
     height: auto;
-    margin: 2rem 6rem 2rem 6rem;
+    margin: 2rem 12rem 2rem 10rem;
 }
 
 .navbar a {
@@ -51,7 +51,7 @@ body {
 }
 
 .avatar-img {
-    margin-left: 6rem;
+    margin-left: 12rem;
     margin-right: 1rem;
     height: 40px;
 }
